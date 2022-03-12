@@ -58,6 +58,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controls\IconListView.xaml.cs">
+      <DependentUpon>IconListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ItemIcon.xaml.cs">
+      <DependentUpon>ItemIcon.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\KeyList.cs" />
     <Compile Include="Model\Solution.cs" />
@@ -69,6 +75,14 @@
     <Compile Include="XMLs\XML.Solution.cs" />
     <Compile Include="XMLs\XML.SolutionFile.cs" />
     <Compile Include="XMLs\XML.Strings.cs" />
+    <Page Include="Controls\IconListView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ItemIcon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
