@@ -83,6 +83,9 @@
     <Compile Include="EditWindow.xaml.cs">
       <DependentUpon>EditWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="KeyPopup.xaml.cs">
+      <DependentUpon>KeyPopup.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\KeyList.cs" />
     <Compile Include="Model\Solution.cs" />
@@ -119,6 +122,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="EditWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="KeyPopup.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
