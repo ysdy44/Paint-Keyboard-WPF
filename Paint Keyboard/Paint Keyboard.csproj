@@ -63,6 +63,7 @@
     <Compile Include="Model\Solution.cs" />
     <Compile Include="Model\StringList.cs" />
     <Compile Include="Strings\LanguageResourceDictionary.cs" />
+    <Compile Include="XMLs\SolutionUri.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
