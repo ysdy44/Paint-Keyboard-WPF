@@ -77,6 +77,9 @@
     <Compile Include="Controls\MainCanvas.cs" />
     <Compile Include="Controls\MainCanvas.Cursor.cs" />
     <Compile Include="Controls\MainScrollViewer.cs" />
+    <Compile Include="Controls\PropertyEditor.xaml.cs">
+      <DependentUpon>PropertyEditor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\KeyList.cs" />
     <Compile Include="Model\Solution.cs" />
@@ -105,6 +108,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Controls\KeyboardCanvas.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\PropertyEditor.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
