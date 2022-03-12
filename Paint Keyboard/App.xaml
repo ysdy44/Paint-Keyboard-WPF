@@ -1,0 +1,12 @@
+﻿<Application 
+    x:Class="Paint_Keyboard.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:strings="clr-namespace:Paint_Keyboard.Strings"
+    StartupUri="MainWindow.xaml"
+    >
+
+    <Application.Resources>
+    </Application.Resources>
+
+</Application>
