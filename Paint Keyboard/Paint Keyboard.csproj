@@ -60,6 +60,7 @@
     </ApplicationDefinition>
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\KeyList.cs" />
+    <Compile Include="Model\Solution.cs" />
     <Compile Include="Model\StringList.cs" />
     <Compile Include="Strings\LanguageResourceDictionary.cs" />
     <Page Include="MainWindow.xaml">
