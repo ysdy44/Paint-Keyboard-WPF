@@ -20,7 +20,7 @@
         <String Key="ru" Value="Отменить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Z</Key>
       </Keys>
     </Item>
@@ -40,7 +40,7 @@
         <String Key="ru" Value="Повторить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Y</Key>
       </Keys>
     </Item>
@@ -60,7 +60,7 @@
         <String Key="ru" Value="Сохранить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>S</Key>
       </Keys>
     </Item>
@@ -80,7 +80,7 @@
         <String Key="ru" Value="Резать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>X</Key>
       </Keys>
     </Item>
@@ -100,7 +100,7 @@
         <String Key="ru" Value="Копировать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>C</Key>
       </Keys>
     </Item>
@@ -120,7 +120,7 @@
         <String Key="ru" Value="Вставить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>V</Key>
       </Keys>
     </Item>
@@ -140,7 +140,7 @@
         <String Key="ru" Value="Выбрать все" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>A</Key>
       </Keys>
     </Item>

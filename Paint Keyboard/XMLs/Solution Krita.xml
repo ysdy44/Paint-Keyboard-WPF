@@ -20,7 +20,7 @@
         <String Key="ru" Value="Отменить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Z</Key>
       </Keys>
     </Item>
@@ -39,8 +39,8 @@
         <String Key="pt" Value="Refazer" />
         <String Key="ru" Value="Повторить" />
       </Strings>
-      <Keys>
-        <Key>Control</Key>
+      <Keys>        
+        <Key>Ctrl</Key>
         <Key>Shift</Key>
         <Key>Z</Key>
       </Keys>
@@ -61,8 +61,8 @@
         <String Key="ru" Value="Изменить размер холста" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Menu</Key>
+        <Key>Ctrl</Key>
+        <Key>Alt</Key>
         <Key>C</Key>
       </Keys>
     </Item>
@@ -82,7 +82,7 @@
         <String Key="ru" Value="Резать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>X</Key>
       </Keys>
     </Item>
@@ -102,7 +102,7 @@
         <String Key="ru" Value="Копировать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>C</Key>
       </Keys>
     </Item>
@@ -122,7 +122,7 @@
         <String Key="ru" Value="Вставить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>V</Key>
       </Keys>
     </Item>
@@ -142,7 +142,7 @@
         <String Key="ru" Value="Выбрать все" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>A</Key>
       </Keys>
     </Item>
@@ -162,7 +162,7 @@
         <String Key="ru" Value="Отменить выбор" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Shift</Key>
         <Key>A</Key>
       </Keys>
@@ -183,7 +183,7 @@
         <String Key="ru" Value="Инвертировать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Shift</Key>
         <Key>I</Key>
       </Keys>
@@ -262,7 +262,7 @@
         <String Key="ru" Value="Группа" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>G</Key>
       </Keys>
     </Item>
@@ -282,8 +282,8 @@
         <String Key="ru" Value="Разгруппировать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Menu</Key>
+        <Key>Ctrl</Key>
+        <Key>Alt</Key>
         <Key>G</Key>
       </Keys>
     </Item>
@@ -303,7 +303,7 @@
         <String Key="ru" Value="Объединить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>E</Key>
       </Keys>
     </Item>
@@ -361,7 +361,7 @@
         <String Key="ru" Value="HSV" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>U</Key>
       </Keys>
     </Item>
@@ -381,7 +381,7 @@
         <String Key="ru" Value="Увеличить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Add</Key>
       </Keys>
     </Item>
@@ -401,8 +401,8 @@
         <String Key="ru" Value="Уменьшить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Oem_Minus</Key>
+        <Key>Ctrl</Key>
+        <Key>OemMinus</Key>
       </Keys>
     </Item>
     <Item Icon="57815" Title="Hide Panel" Left="2" Top="6">
@@ -440,8 +440,8 @@
         <String Key="ru" Value="Повернуть налево" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Oem_4</Key>
+        <Key>Ctrl</Key>
+        <Key>OemOpenBrackets</Key>
       </Keys>
     </Item>
     <Item Icon="57673" Title="Rotate Right" Left="1" Top="7">
@@ -460,8 +460,8 @@
         <String Key="ru" Value="Повернуть вправо" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Oem_6</Key>
+        <Key>Ctrl</Key>
+        <Key>OemCloseBrackets</Key>
       </Keys>
     </Item>
     <Item Icon="57817" Title="Full screen" Left="2" Top="7">
@@ -480,7 +480,7 @@
         <String Key="ru" Value="Полноэкранный" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Shift</Key>
         <Key>F</Key>
       </Keys>

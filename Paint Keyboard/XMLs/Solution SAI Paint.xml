@@ -20,7 +20,7 @@
         <String Key="ru" Value="Отменить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Z</Key>
       </Keys>
     </Item>
@@ -40,7 +40,7 @@
         <String Key="ru" Value="Повторить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Y</Key>
       </Keys>
     </Item>
@@ -60,7 +60,7 @@
         <String Key="ru" Value="Сохранить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>S</Key>
       </Keys>
     </Item>
@@ -80,7 +80,7 @@
         <String Key="ru" Value="Резать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>X</Key>
       </Keys>
     </Item>
@@ -100,7 +100,7 @@
         <String Key="ru" Value="Копировать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>C</Key>
       </Keys>
     </Item>
@@ -120,7 +120,7 @@
         <String Key="ru" Value="Вставить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>V</Key>
       </Keys>
     </Item>
@@ -140,7 +140,7 @@
         <String Key="ru" Value="Выбрать все" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>A</Key>
       </Keys>
     </Item>
@@ -160,7 +160,7 @@
         <String Key="ru" Value="Отменить выбор" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>D</Key>
       </Keys>
     </Item>
@@ -180,7 +180,7 @@
         <String Key="ru" Value="HSV" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>U</Key>
       </Keys>
     </Item>
@@ -200,7 +200,7 @@
         <String Key="ru" Value="Преобразовать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>T</Key>
       </Keys>
     </Item>
@@ -239,7 +239,7 @@
         <String Key="ru" Value="Объединить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>E</Key>
       </Keys>
     </Item>
@@ -259,8 +259,8 @@
         <String Key="ru" Value="Увеличить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Oem_Plus</Key>
+        <Key>Ctrl</Key>
+        <Key>OemPlus</Key>
       </Keys>
     </Item>
     <Item Icon="57764" Title="Zoom Out" Left="1" Top="4">
@@ -279,8 +279,8 @@
         <String Key="ru" Value="Уменьшить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Oem_Minus</Key>
+        <Key>Ctrl</Key>
+        <Key>OemMinus</Key>
       </Keys>
     </Item>
     <Item Icon="57815" Title="HIde Panel" Left="2" Top="4">

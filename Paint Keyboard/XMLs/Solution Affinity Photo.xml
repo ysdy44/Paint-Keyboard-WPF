@@ -20,7 +20,7 @@
         <String Key="ru" Value="Отменить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Z</Key>
       </Keys>
     </Item>
@@ -40,7 +40,7 @@
         <String Key="ru" Value="Повторить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Y</Key>
       </Keys>
     </Item>
@@ -60,8 +60,8 @@
         <String Key="ru" Value="Изменить размер холста" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Menu</Key>
+        <Key>Ctrl</Key>
+        <Key>Alt</Key>
         <Key>C</Key>
       </Keys>
     </Item>
@@ -81,7 +81,7 @@
         <String Key="ru" Value="Резать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>X</Key>
       </Keys>
     </Item>
@@ -101,7 +101,7 @@
         <String Key="ru" Value="Копировать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>C</Key>
       </Keys>
     </Item>
@@ -121,7 +121,7 @@
         <String Key="ru" Value="Вставить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>V</Key>
       </Keys>
     </Item>
@@ -141,7 +141,7 @@
         <String Key="ru" Value="Увеличить" />
       </Strings>
       <Keys>
-        <Key>Oem_6</Key>
+        <Key>OemCloseBrackets</Key>
       </Keys>
     </Item>
     <Item Icon="57616" Title="Up" Left="1" Top="2">
@@ -160,8 +160,8 @@
         <String Key="ru" Value="Вверх" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Oem_6</Key>
+        <Key>Ctrl</Key>
+        <Key>OemCloseBrackets</Key>
       </Keys>
     </Item>
     <Item Icon="57609" Title="New" Left="2" Top="2">
@@ -180,7 +180,7 @@
         <String Key="ru" Value="Новый" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Shift</Key>
         <Key>N</Key>
       </Keys>
@@ -201,7 +201,7 @@
         <String Key="ru" Value="Уменьшить" />
       </Strings>
       <Keys>
-        <Key>Oem_4</Key>
+        <Key>OemOpenBrackets</Key>
       </Keys>
     </Item>
     <Item Icon="57853" Title="Down" Left="1" Top="3">
@@ -220,8 +220,8 @@
         <String Key="ru" Value="Вниз" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Oem_4</Key>
+        <Key>Ctrl</Key>
+        <Key>OemOpenBrackets</Key>
       </Keys>
     </Item>
     <Item Icon="57607" Title="Remove" Left="2" Top="3">
@@ -259,7 +259,7 @@
         <String Key="ru" Value="Выбрать все" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>A</Key>
       </Keys>
     </Item>
@@ -279,7 +279,7 @@
         <String Key="ru" Value="Отменить выбор" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>D</Key>
       </Keys>
     </Item>
@@ -299,7 +299,7 @@
         <String Key="ru" Value="Инвертировать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Shift</Key>
         <Key>I</Key>
       </Keys>
@@ -320,7 +320,7 @@
         <String Key="ru" Value="Группа" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>G</Key>
       </Keys>
     </Item>
@@ -340,7 +340,7 @@
         <String Key="ru" Value="Разгруппировать" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>Shift</Key>
         <Key>G</Key>
       </Keys>
@@ -361,7 +361,7 @@
         <String Key="ru" Value="Объединить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
+        <Key>Ctrl</Key>
         <Key>E</Key>
       </Keys>
     </Item>
@@ -381,8 +381,8 @@
         <String Key="ru" Value="Увеличить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Oem_Plus</Key>
+        <Key>Ctrl</Key>
+        <Key>OemPlus</Key>
       </Keys>
     </Item>
     <Item Icon="57608" Title="Zoom Out" Left="1" Top="6">
@@ -401,8 +401,8 @@
         <String Key="ru" Value="Уменьшить" />
       </Strings>
       <Keys>
-        <Key>Control</Key>
-        <Key>Oem_Minus</Key>
+        <Key>Ctrl</Key>
+        <Key>OemMinus</Key>
       </Keys>
     </Item>
     <Item Icon="57817" Title="Full screen" Left="2" Top="6">
