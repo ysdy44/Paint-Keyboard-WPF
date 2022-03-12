@@ -1,0 +1,812 @@
+﻿<Canvas
+    x:Class="Paint_Keyboard.Controls.KeyboardCanvas"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:elements="clr-namespace:Paint_Keyboard.Elements"
+    mc:Ignorable="d"             
+    d:DesignHeight="450" 
+    d:DesignWidth="800"
+    Width="1162" 
+    Height="386"
+    Background="#DCDCDC"
+    >
+    
+
+    <FrameworkElement.Resources>
+        <Style x:Key="ButtonBaseStyle" TargetType="ButtonBase" >
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="Padding" Value="6,2"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Width" Value="70" />
+            <Setter Property="Height" Value="70" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="BorderBrush" Value="Gray" />
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="LightGray"/>
+            <Setter Property="Padding" Value="2" />
+            <Setter Property="Margin" Value="2" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ButtonBase">
+                        <Grid MinWidth="28" MinHeight="28" Background="Transparent" TextBlock.Foreground="Black">
+
+                            <!--VisualState-->
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal" />
+                                    <VisualState x:Name="MouseOver">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="AccentBorder" Storyboard.TargetProperty="Opacity">
+                                                <EasingDoubleKeyFrame KeyTime="00:00:00.150" Value="1" />
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="AccentBorder" Storyboard.TargetProperty="Opacity">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="1" />
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="AccentBorder" Storyboard.TargetProperty="Opacity">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.5" />
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+
+                            <Border x:Name="BackgroundBorder" Margin="4,2"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            Background="{TemplateBinding Background}"
+                            />
+
+                            <Border x:Name="AccentBorder"
+                                Opacity="0" Margin="4,2"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                BorderBrush="{TemplateBinding Foreground}"
+                                Background="{TemplateBinding Foreground}"
+                                />
+
+                            <ContentPresenter 
+                                x:Name="Content" 
+                                RecognizesAccessKey="True"                                                    
+                                Margin="{TemplateBinding Padding}"                                                    
+                                HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"                                           
+                                VerticalAlignment="{TemplateBinding VerticalContentAlignment}"                                           
+                                />
+
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="Button" BasedOn="{StaticResource ButtonBaseStyle}">
+            <Setter Property="Width" Value="80"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </FrameworkElement.Resources>
+
+
+
+    <!--#region NewRegion -->
+
+    <Button Canvas.Left="0" Height="40" Width="100" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Escape
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Esc
+    </Button>
+    <Button Canvas.Left="100" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F1
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F1
+    </Button>
+    <Button Canvas.Left="180" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F2
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F2
+    </Button>
+    <Button Canvas.Left="260" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F3
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F3
+    </Button>
+    <Button Canvas.Left="340" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F4
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F4
+    </Button>
+    <Button Canvas.Left="420" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F5
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F5
+    </Button>
+    <Button Canvas.Left="500" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F6
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F6
+    </Button>
+    <Button Canvas.Left="580" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F7
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F7
+    </Button>
+    <Button Canvas.Left="660" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F8
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F8
+    </Button>
+    <Button Canvas.Left="740" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F9
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F9
+    </Button>
+    <Button Canvas.Left="820" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F10
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F10
+    </Button>
+    <Button Canvas.Left="900" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F11
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F11
+    </Button>
+    <Button Canvas.Left="980" Height="40" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F12
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F12
+    </Button>
+    <Button Canvas.Left="1060" Height="40" Width="100" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Delete
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Delete
+    </Button>
+
+    <!--#endregion-->
+
+
+    <!--#region NewRegion -->
+
+    <Button Canvas.Left="0" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                OemTilde
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        `
+    </Button>
+    <Button Canvas.Left="80" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                D1
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        1
+    </Button>
+    <Button Canvas.Left="160" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                D2
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        2
+    </Button>
+    <Button Canvas.Left="240" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                D3
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        3
+    </Button>
+    <Button Canvas.Left="320" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                D4
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        4
+    </Button>
+    <Button Canvas.Left="400" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                D5
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        5
+    </Button>
+    <Button Canvas.Left="480" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                D6
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        6
+    </Button>
+    <Button Canvas.Left="560" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                D7
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        7
+    </Button>
+    <Button Canvas.Left="640" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                D8
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        8
+    </Button>
+    <Button Canvas.Left="720" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                D9
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        9
+    </Button>
+    <Button Canvas.Left="800" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                D0
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        0
+    </Button>
+    <Button Canvas.Left="880" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                OemMinus
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        -
+    </Button>
+    <Button Canvas.Left="960" Canvas.Top="40">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                OemPlus
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        +
+    </Button>
+    <Button Canvas.Left="1040" Canvas.Top="40" Width="120" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Back
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        BackSpace
+    </Button>
+
+    <!--#endregion-->
+
+
+    <!--#region NewRegion -->
+
+    <Button Canvas.Left="0" Canvas.Top="100" Width="100" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Tab
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Tab
+    </Button>
+    <Button Canvas.Left="100" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Q
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Q
+    </Button>
+    <Button Canvas.Left="180" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                W
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        W
+    </Button>
+    <Button Canvas.Left="260" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                E
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        E
+    </Button>
+    <Button Canvas.Left="340" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                R
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        R
+    </Button>
+    <Button Canvas.Left="420" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                T
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        T
+    </Button>
+    <Button Canvas.Left="500" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Y
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Y
+    </Button>
+    <Button Canvas.Left="580" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                U
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        U
+    </Button>
+    <Button Canvas.Left="660" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                I
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        I
+    </Button>
+    <Button Canvas.Left="740" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                O
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        O
+    </Button>
+    <Button Canvas.Left="820" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                P
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        P
+    </Button>
+    <Button Canvas.Left="900" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                OemOpenBrackets
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        [
+    </Button>
+    <Button Canvas.Left="980" Canvas.Top="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                OemCloseBrackets
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        ]
+    </Button>
+    <Button Canvas.Left="1060 " Canvas.Top="100" Width="100">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                OemBackslash
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        \
+    </Button>
+
+    <!--#endregion-->
+
+
+    <!--#region NewRegion -->
+
+    <Button Canvas.Left="0" Canvas.Top="160" Width="120" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Capital
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Caps
+    </Button>
+    <Button Canvas.Left="120" Canvas.Top="160">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                A
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        A
+    </Button>
+    <Button Canvas.Left="200" Canvas.Top="160">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                S
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        S
+    </Button>
+    <Button Canvas.Left="280" Canvas.Top="160">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                D
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        D
+    </Button>
+    <Button Canvas.Left="360" Canvas.Top="160">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                F
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        F
+    </Button>
+    <Button Canvas.Left="440" Canvas.Top="160">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                G
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        G
+    </Button>
+    <Button Canvas.Left="520" Canvas.Top="160">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                H
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        H
+    </Button>
+    <Button Canvas.Left="600" Canvas.Top="160">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                J
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        J
+    </Button>
+    <Button Canvas.Left="680" Canvas.Top="160">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                K
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        K
+    </Button>
+    <Button Canvas.Left="760" Canvas.Top="160">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                L
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        L
+    </Button>
+    <Button Canvas.Left="840" Canvas.Top="160">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                OemSemicolon
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        ;
+    </Button>
+    <Button Canvas.Left="920" Canvas.Top="160">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                OemQuotes
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        '
+    </Button>
+    <Button Canvas.Left="1000" Canvas.Top="160" Width="160" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Return
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Enter
+    </Button>
+
+    <!--#endregion-->
+
+
+    <!--#region NewRegion -->
+
+    <Button Canvas.Left="0" Canvas.Top="220" Width="160" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Shift
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Shift
+    </Button>
+    <Button Canvas.Left="160" Canvas.Top="220">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Z
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Z
+    </Button>
+    <Button Canvas.Left="240" Canvas.Top="220">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                X
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        X
+    </Button>
+    <Button Canvas.Left="320" Canvas.Top="220">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                C
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        C
+    </Button>
+    <Button Canvas.Left="400" Canvas.Top="220">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                V
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        V
+    </Button>
+    <Button Canvas.Left="480" Canvas.Top="220">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                B
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        B
+    </Button>
+    <Button Canvas.Left="560" Canvas.Top="220">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                N
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        N
+    </Button>
+    <Button Canvas.Left="640" Canvas.Top="220">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                M
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        M
+    </Button>
+    <Button Canvas.Left="720" Canvas.Top="220">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                OemComma
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        ,
+    </Button>
+    <Button Canvas.Left="800" Canvas.Top="220">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                OemPeriod
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        .
+    </Button>
+    <Button Canvas.Left="880" Canvas.Top="220">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                OemQuestion
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        /
+    </Button>
+    <Button Canvas.Left="960" Canvas.Top="220" Width="200" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Shift
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Shift
+    </Button>
+
+    <!--#endregion-->
+
+
+    <!--#region NewRegion -->
+
+    <Button Canvas.Left="000" Canvas.Top="280" Width="100" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Ctrl
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Ctrl
+    </Button>
+    <Button IsEnabled="False" Canvas.Left="100" Canvas.Top="280" FontSize="14">
+        Fn
+    </Button>
+    <Button IsEnabled="False" Canvas.Left="180" Canvas.Top="280" FontFamily="Segoe UI Symbol">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Escape
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        &#xE138;
+    </Button>
+    <Button Canvas.Left="260" Canvas.Top="280" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Alt
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Alt
+    </Button>
+    <Button Canvas.Left="340" Canvas.Top="280" Width="420">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Space
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+    </Button>
+    <Button Canvas.Left="760" Canvas.Top="280" FontSize="14">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Alt
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Alt
+    </Button>
+    <Button IsEnabled="False" Canvas.Left="840" Canvas.Top="280" FontSize="18" FontFamily="Segoe UI Symbol">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Escape
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        &#xE179;
+    </Button>
+    <Button Canvas.Left="920" Canvas.Top="280" FontFamily="Segoe MDL2 Assets">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Left
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        &#xE00E;
+    </Button>
+    <Button Canvas.Left="1000" Canvas.Top="280" Height="31" FontFamily="Segoe MDL2 Assets">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Up
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        &#xE010;
+    </Button>
+    <Button Canvas.Left="1000" Canvas.Top="309" Height="31" FontFamily="Segoe MDL2 Assets">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Down
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        &#xE011;
+    </Button>
+    <Button Canvas.Left="1080" Canvas.Top="280" FontFamily="Segoe MDL2 Assets">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Right
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        &#xE00F;
+    </Button>
+
+    <!--#endregion-->
+
+
+    <!--#region NewRegion -->
+
+    <Button Canvas.Left="660" Canvas.Top="342" Height="40" FontSize="12">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Insert
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Ins
+    </Button>
+    <Button Canvas.Left="740" Canvas.Top="342" Height="40" FontSize="12">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Delete
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Del
+    </Button>
+
+    <Button Canvas.Left="830" Canvas.Top="342" Height="40" FontSize="12">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Home
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Home
+    </Button>
+    <Button Canvas.Left="910" Canvas.Top="342" Height="40" FontSize="12">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                End
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        End
+    </Button>
+
+    <Button Canvas.Left="1000" Canvas.Top="342" Height="40" FontSize="12">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Prior
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Page Up
+    </Button>
+    <Button Canvas.Left="1080" Canvas.Top="342" Height="40" FontSize="12">
+        <FrameworkElement.Tag>
+            <elements:ScanCodeShort>
+                Next
+            </elements:ScanCodeShort>
+        </FrameworkElement.Tag>
+        Page Down
+    </Button>
+
+    <!--#endregion-->
+
+
+</Canvas>
