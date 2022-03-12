@@ -76,6 +76,7 @@
     <Compile Include="Controls\MainCanvas.Add.cs" />
     <Compile Include="Controls\MainCanvas.cs" />
     <Compile Include="Controls\MainCanvas.Cursor.cs" />
+    <Compile Include="Controls\MainScrollViewer.cs" />
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\KeyList.cs" />
     <Compile Include="Model\Solution.cs" />
