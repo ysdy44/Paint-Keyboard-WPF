@@ -1,0 +1,27 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib"
+    >
+
+    <system:String x:Key="MainEditWindow_Solution">Solution</system:String>
+    <system:String x:Key="MainEditWindow_Edit">Éditer</system:String>
+    <system:String x:Key="MainEditWindow_Close">Fermer</system:String>
+
+    <system:String x:Key="EditWindow_Title">Modifier le clavier</system:String>
+    <system:String x:Key="EditWindow_SelectIcon">Sélectionnez n'importe quelle icône pour continuer</system:String>
+    <system:String x:Key="EditWindow_SelectKey">Sélectionnez n'importe quelle clé pour continuer</system:String>
+
+    <system:String x:Key="EditWindow_Cursor">Le curseur</system:String>
+    <system:String x:Key="EditWindow_AddAdd">Ajouter</system:String>
+
+    <system:String x:Key="EditWindow_Delete">Supprimer</system:String>
+    <system:String x:Key="EditWindow_OK">d'accord</system:String>
+    <system:String x:Key="EditWindow_Remove">Retirer</system:String>
+
+    <system:String x:Key="EditWindow_Size">Taille</system:String>
+    <system:String x:Key="PropertyEditor_Icon">Icône</system:String>
+    <system:String x:Key="PropertyEditor_Title">Titre</system:String>
+    <system:String x:Key="PropertyEditor_Key">Raccourcis</system:String>
+
+</ResourceDictionary>

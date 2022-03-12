@@ -1,0 +1,27 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib"
+    >
+
+    <system:String x:Key="MainEditWindow_Solution">المحلول</system:String>
+    <system:String x:Key="MainEditWindow_Edit">يحرر</system:String>
+    <system:String x:Key="MainEditWindow_Close">يغلق</system:String>
+
+    <system:String x:Key="EditWindow_Title">تحرير لوحة المفاتيح</system:String>
+    <system:String x:Key="EditWindow_SelectIcon">حدد أي رمز للمتابعة</system:String>
+    <system:String x:Key="EditWindow_SelectKey">حدد أي مفتاح للمتابعة</system:String>
+
+    <system:String x:Key="EditWindow_Cursor">المؤشر</system:String>
+    <system:String x:Key="EditWindow_AddAdd">يضيف</system:String>
+
+    <system:String x:Key="EditWindow_Delete">حذف</system:String>
+    <system:String x:Key="EditWindow_OK">نعم</system:String>
+    <system:String x:Key="EditWindow_Remove">إزالة</system:String>
+
+    <system:String x:Key="EditWindow_Size">بحجم</system:String>
+    <system:String x:Key="PropertyEditor_Icon">أيقونة</system:String>
+    <system:String x:Key="PropertyEditor_Title">لقب</system:String>
+    <system:String x:Key="PropertyEditor_Key">الاختصارات</system:String>
+
+</ResourceDictionary>

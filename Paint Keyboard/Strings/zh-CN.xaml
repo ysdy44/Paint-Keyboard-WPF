@@ -1,0 +1,27 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib"
+    >
+
+    <system:String x:Key="MainEditWindow_Solution">方案</system:String>
+    <system:String x:Key="MainEditWindow_Edit">编辑</system:String>
+    <system:String x:Key="MainEditWindow_Close">关闭</system:String>
+
+    <system:String x:Key="EditWindow_Title">编辑键盘</system:String>
+    <system:String x:Key="EditWindow_SelectIcon">选择任意图标以继续</system:String>
+    <system:String x:Key="EditWindow_SelectKey">选择任意按键以继续</system:String>
+
+    <system:String x:Key="EditWindow_Cursor">光标</system:String>
+    <system:String x:Key="EditWindow_Add">添加</system:String>
+
+    <system:String x:Key="EditWindow_Delete">删除</system:String>
+    <system:String x:Key="EditWindow_OK">确定</system:String>
+    <system:String x:Key="EditWindow_Remove">移除</system:String>
+
+    <system:String x:Key="EditWindow_Size">尺寸</system:String>
+    <system:String x:Key="PropertyEditor_Icon">图标</system:String>
+    <system:String x:Key="PropertyEditor_Title">标题</system:String>
+    <system:String x:Key="PropertyEditor_Key">快捷键</system:String>
+
+</ResourceDictionary>
