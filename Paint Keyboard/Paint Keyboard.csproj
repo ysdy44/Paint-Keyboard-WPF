@@ -67,6 +67,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Elements\IconFontCharacter.cs" />
+    <Compile Include="Elements\InputSimulator.cs" />
     <Compile Include="Elements\PopupBase.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
