@@ -67,6 +67,9 @@
     <Compile Include="Controls\ItemIcon.xaml.cs">
       <DependentUpon>ItemIcon.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\ItemView.xaml.cs">
+      <DependentUpon>ItemView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Controls\KeyboardCanvas.xaml.cs">
       <DependentUpon>KeyboardCanvas.xaml</DependentUpon>
     </Compile>
@@ -90,6 +93,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Controls\ItemIcon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ItemView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
