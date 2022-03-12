@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Root>
+  <Name></Name>
+  <Width>3</Width>
+  <Height>3</Height>
+  <Items>
+    <Item Icon="57614" Title="Undo" Left="0" Top="0">
+      <Strings>
+        <String Key="en" Value="Undo" />
+        <String Key="zh" Value="撤销" />
+        <String Key="ar" Value="الغاء التحميل" />
+        <String Key="de" Value="Rückgängig machen" />
+        <String Key="es" Value="Deshacer" />
+        <String Key="fr" Value="annuler" />
+        <String Key="it" Value="Disfare" />
+        <String Key="ja" Value="元に戻す" />
+        <String Key="ko" Value="실행 취소" />
+        <String Key="nl" Value="Ongedaan maken" />
+        <String Key="pt" Value="Desfazer" />
+        <String Key="ru" Value="Отменить" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>Z</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57613" Title="Redo" Left="1" Top="0">
+      <Strings>
+        <String Key="en" Value="Redo" />
+        <String Key="zh" Value="重做" />
+        <String Key="ar" Value="إعادة" />
+        <String Key="de" Value="Wiederholen" />
+        <String Key="es" Value="Rehacer" />
+        <String Key="fr" Value="Refaire" />
+        <String Key="it" Value="Rifare" />
+        <String Key="ja" Value="やり直し" />
+        <String Key="ko" Value="다시 하다" />
+        <String Key="nl" Value="Opnieuw doen" />
+        <String Key="pt" Value="Refazer" />
+        <String Key="ru" Value="Повторить" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>Y</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57605" Title="Save" Left="2" Top="0">
+      <Strings>
+        <String Key="en" Value="Save" />
+        <String Key="zh" Value="保存" />
+        <String Key="ar" Value="حفظ" />
+        <String Key="de" Value="Speichern" />
+        <String Key="es" Value="Guardar" />
+        <String Key="fr" Value="Sauvegarder" />
+        <String Key="it" Value="Salva" />
+        <String Key="ja" Value="保存" />
+        <String Key="ko" Value="저장" />
+        <String Key="nl" Value="Opslaan" />
+        <String Key="pt" Value="Guardar" />
+        <String Key="ru" Value="Сохранить" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>S</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57707" Title="Cut" Left="0" Top="1">
+      <Strings>
+        <String Key="en" Value="Cut" />
+        <String Key="zh" Value="剪切" />
+        <String Key="ar" Value="يقطع" />
+        <String Key="de" Value="Schnitt" />
+        <String Key="es" Value="Corte" />
+        <String Key="fr" Value="Couper" />
+        <String Key="it" Value="Taglio" />
+        <String Key="ja" Value="切る" />
+        <String Key="ko" Value="절단" />
+        <String Key="nl" Value="Besnoeiing" />
+        <String Key="pt" Value="Cortar" />
+        <String Key="ru" Value="Резать" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>X</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57711" Title="Copy" Left="1" Top="1">
+      <Strings>
+        <String Key="en" Value="Copy" />
+        <String Key="zh" Value="复制" />
+        <String Key="ar" Value="ينسخ" />
+        <String Key="de" Value="Kopieren" />
+        <String Key="es" Value="Dupdo" />
+        <String Key="fr" Value="Copie" />
+        <String Key="it" Value="copia" />
+        <String Key="ja" Value="コピー" />
+        <String Key="ko" Value="부" />
+        <String Key="nl" Value="Kopiëren" />
+        <String Key="pt" Value="cópia de" />
+        <String Key="ru" Value="Копировать" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>C</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57709" Title="Paste" Left="2" Top="1">
+      <Strings>
+        <String Key="en" Value="Paste" />
+        <String Key="zh" Value="粘贴" />
+        <String Key="ar" Value="معجون" />
+        <String Key="de" Value="Einfügen" />
+        <String Key="es" Value="Pegar" />
+        <String Key="fr" Value="Pâte" />
+        <String Key="it" Value="Incolla" />
+        <String Key="ja" Value="ペースト" />
+        <String Key="ko" Value="풀" />
+        <String Key="nl" Value="Plakken" />
+        <String Key="pt" Value="Colar" />
+        <String Key="ru" Value="Вставить" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>V</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57678" Title="Select all" Left="0" Top="2">
+      <Strings>
+        <String Key="en" Value="Select all" />
+        <String Key="zh" Value="全选" />
+        <String Key="ar" Value="اختر الكل" />
+        <String Key="de" Value="Wählen Sie Alle" />
+        <String Key="es" Value="Seleccionar todo" />
+        <String Key="fr" Value="Tout sélectionner" />
+        <String Key="it" Value="Seleziona tutto" />
+        <String Key="ja" Value="すべて選択" />
+        <String Key="ko" Value="모두 선택" />
+        <String Key="nl" Value="Selecteer alles" />
+        <String Key="pt" Value="Selecionar tudo" />
+        <String Key="ru" Value="Выбрать все" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>A</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57607" Title="Remove" Left="1" Top="2">
+      <Strings>
+        <String Key="en" Value="Remove" />
+        <String Key="zh" Value="移除" />
+        <String Key="ar" Value="يزيل" />
+        <String Key="de" Value="Entfernen" />
+        <String Key="es" Value="Eliminar" />
+        <String Key="fr" Value="Supprimer" />
+        <String Key="it" Value="Rimuovere" />
+        <String Key="ja" Value="削除する" />
+        <String Key="ko" Value="없애다" />
+        <String Key="nl" Value="Verwijderen" />
+        <String Key="pt" Value="Retirar" />
+        <String Key="ru" Value="Удалять" />
+      </Strings>
+      <Keys>
+        <Key>Delete</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57928" Title="Enter" Left="2" Top="2">
+      <Strings>
+        <String Key="en" Value="Return" />
+        <String Key="zh" Value="回车" />
+        <String Key="ar" Value="رجوع" />
+        <String Key="de" Value="Zurück" />
+        <String Key="es" Value="Intro" />
+        <String Key="fr" Value="Entrée" />
+        <String Key="it" Value="Invio" />
+        <String Key="ja" Value="Enter" />
+        <String Key="ko" Value="Return" />
+        <String Key="nl" Value="Return" />
+        <String Key="pt" Value="Enter" />
+        <String Key="ru" Value="Ввод" />
+      </Strings>
+      <Keys>
+        <Key>Return</Key>
+      </Keys>
+    </Item>
+  </Items>
+</Root>

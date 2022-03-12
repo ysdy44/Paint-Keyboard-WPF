@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Root>
+  <Name>SAI Paint</Name>
+  <Width>3</Width>
+  <Height>8</Height>
+  <Items>
+    <Item Icon="57614" Title="Undo" Left="0" Top="0">
+      <Strings>
+        <String Key="en" Value="Undo" />
+        <String Key="zh" Value="撤销" />
+        <String Key="ar" Value="الغاء التحميل" />
+        <String Key="de" Value="Rückgängig machen" />
+        <String Key="es" Value="Deshacer" />
+        <String Key="fr" Value="annuler" />
+        <String Key="it" Value="Disfare" />
+        <String Key="ja" Value="元に戻す" />
+        <String Key="ko" Value="실행 취소" />
+        <String Key="nl" Value="Ongedaan maken" />
+        <String Key="pt" Value="Desfazer" />
+        <String Key="ru" Value="Отменить" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>Z</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57613" Title="Redo" Left="1" Top="0">
+      <Strings>
+        <String Key="en" Value="Redo" />
+        <String Key="zh" Value="重做" />
+        <String Key="ar" Value="إعادة" />
+        <String Key="de" Value="Wiederholen" />
+        <String Key="es" Value="Rehacer" />
+        <String Key="fr" Value="Refaire" />
+        <String Key="it" Value="Rifare" />
+        <String Key="ja" Value="やり直し" />
+        <String Key="ko" Value="다시 하다" />
+        <String Key="nl" Value="Opnieuw doen" />
+        <String Key="pt" Value="Refazer" />
+        <String Key="ru" Value="Повторить" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>Y</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57605" Title="Save" Left="2" Top="0">
+      <Strings>
+        <String Key="en" Value="Save" />
+        <String Key="zh" Value="保存" />
+        <String Key="ar" Value="حفظ" />
+        <String Key="de" Value="Speichern" />
+        <String Key="es" Value="Guardar" />
+        <String Key="fr" Value="Sauvegarder" />
+        <String Key="it" Value="Salva" />
+        <String Key="ja" Value="保存" />
+        <String Key="ko" Value="저장" />
+        <String Key="nl" Value="Opslaan" />
+        <String Key="pt" Value="Guardar" />
+        <String Key="ru" Value="Сохранить" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>S</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57707" Title="Cut" Left="0" Top="1">
+      <Strings>
+        <String Key="en" Value="Cut" />
+        <String Key="zh" Value="剪切" />
+        <String Key="ar" Value="يقطع" />
+        <String Key="de" Value="Schnitt" />
+        <String Key="es" Value="Corte" />
+        <String Key="fr" Value="Couper" />
+        <String Key="it" Value="Taglio" />
+        <String Key="ja" Value="切る" />
+        <String Key="ko" Value="절단" />
+        <String Key="nl" Value="Besnoeiing" />
+        <String Key="pt" Value="Cortar" />
+        <String Key="ru" Value="Резать" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>X</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57711" Title="Copy" Left="1" Top="1">
+      <Strings>
+        <String Key="en" Value="Copy" />
+        <String Key="zh" Value="复制" />
+        <String Key="ar" Value="ينسخ" />
+        <String Key="de" Value="Kopieren" />
+        <String Key="es" Value="Dupdo" />
+        <String Key="fr" Value="Copie" />
+        <String Key="it" Value="copia" />
+        <String Key="ja" Value="コピー" />
+        <String Key="ko" Value="부" />
+        <String Key="nl" Value="Kopiëren" />
+        <String Key="pt" Value="cópia de" />
+        <String Key="ru" Value="Копировать" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>C</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57709" Title="Paste" Left="2" Top="1">
+      <Strings>
+        <String Key="en" Value="Paste" />
+        <String Key="zh" Value="粘贴" />
+        <String Key="ar" Value="معجون" />
+        <String Key="de" Value="Einfügen" />
+        <String Key="es" Value="Pegar" />
+        <String Key="fr" Value="Pâte" />
+        <String Key="it" Value="Incolla" />
+        <String Key="ja" Value="ペースト" />
+        <String Key="ko" Value="풀" />
+        <String Key="nl" Value="Plakken" />
+        <String Key="pt" Value="Colar" />
+        <String Key="ru" Value="Вставить" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>V</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57678" Title="Select all" Left="0" Top="2">
+      <Strings>
+        <String Key="en" Value="Select all" />
+        <String Key="zh" Value="全选" />
+        <String Key="ar" Value="اختر الكل" />
+        <String Key="de" Value="Wählen Sie Alle" />
+        <String Key="es" Value="Seleccionar todo" />
+        <String Key="fr" Value="Tout sélectionner" />
+        <String Key="it" Value="Seleziona tutto" />
+        <String Key="ja" Value="すべて選択" />
+        <String Key="ko" Value="모두 선택" />
+        <String Key="nl" Value="Selecteer alles" />
+        <String Key="pt" Value="Selecionar tudo" />
+        <String Key="ru" Value="Выбрать все" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>A</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57684" Title="Deselect" Left="1" Top="2">
+      <Strings>
+        <String Key="en" Value="Deselect" />
+        <String Key="zh" Value="取消" />
+        <String Key="ar" Value="إلغاء" />
+        <String Key="de" Value="Abwählen" />
+        <String Key="es" Value="Deseleccionar" />
+        <String Key="fr" Value="Désélectionner" />
+        <String Key="it" Value="Deseleziona" />
+        <String Key="ja" Value="選択を解除" />
+        <String Key="ko" Value="선택 취소" />
+        <String Key="nl" Value="Selectie ongedaan maken" />
+        <String Key="pt" Value="Deselecionar" />
+        <String Key="ru" Value="Отменить выбор" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>D</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57629" Title="HSV" Left="2" Top="2">
+      <Strings>
+        <String Key="en" Value="HSV" />
+        <String Key="zh" Value="HSV" />
+        <String Key="ar" Value="HSV" />
+        <String Key="de" Value="HSV" />
+        <String Key="es" Value="HSV" />
+        <String Key="fr" Value="HSV" />
+        <String Key="it" Value="HSV" />
+        <String Key="ja" Value="HSV" />
+        <String Key="ko" Value="HSV" />
+        <String Key="nl" Value="HSV" />
+        <String Key="pt" Value="HSV" />
+        <String Key="ru" Value="HSV" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>U</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57870" Title="Transform" Left="0" Top="3">
+      <Strings>
+        <String Key="en" Value="Transform" />
+        <String Key="zh" Value="变换" />
+        <String Key="ar" Value="تحول" />
+        <String Key="de" Value="Verwandeln" />
+        <String Key="es" Value="Transformar" />
+        <String Key="fr" Value="Transformer" />
+        <String Key="it" Value="Trasformare" />
+        <String Key="ja" Value="変換" />
+        <String Key="ko" Value="변환" />
+        <String Key="nl" Value="Transformeren" />
+        <String Key="pt" Value="Transformar" />
+        <String Key="ru" Value="Преобразовать" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>T</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57606" Title="Clear" Left="1" Top="3">
+      <Strings>
+        <String Key="en" Value="Clear" />
+        <String Key="zh" Value="清除" />
+        <String Key="ar" Value="واضح" />
+        <String Key="de" Value="klar" />
+        <String Key="es" Value="Claro" />
+        <String Key="fr" Value="Dégager" />
+        <String Key="it" Value="Chiaro" />
+        <String Key="ja" Value="晴れ" />
+        <String Key="ko" Value="맑은" />
+        <String Key="nl" Value="Doorzichtig" />
+        <String Key="pt" Value="Claro" />
+        <String Key="ru" Value="Прозрачный" />
+      </Strings>
+      <Keys>
+        <Key>Delete</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57624" Title="Down Merger" Left="2" Top="3">
+      <Strings>
+        <String Key="en" Value="Down Merger" />
+        <String Key="zh" Value="向下合并" />
+        <String Key="ar" Value="دمج لأسفل" />
+        <String Key="de" Value="Nach unten zusammenfassen" />
+        <String Key="es" Value="Integrar capa" />
+        <String Key="fr" Value="Fusionner avec le calque inférieur" />
+        <String Key="it" Value="Unisci verso il basso" />
+        <String Key="ja" Value="下に統合" />
+        <String Key="ko" Value="아래로 통합" />
+        <String Key="nl" Value="omlaag samenvoegen" />
+        <String Key="pt" Value="Unificar abaixo" />
+        <String Key="ru" Value="Объединить" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>E</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57646" Title="Zoom In" Left="0" Top="4">
+      <Strings>
+        <String Key="en" Value="Zoom In" />
+        <String Key="zh" Value="放大" />
+        <String Key="ar" Value="تكبير" />
+        <String Key="de" Value="vergrößern" />
+        <String Key="es" Value="Acercarse" />
+        <String Key="fr" Value="Agrandir" />
+        <String Key="it" Value="Ingrandire" />
+        <String Key="ja" Value="ズームイン" />
+        <String Key="ko" Value="확대" />
+        <String Key="nl" Value="In zoomen" />
+        <String Key="pt" Value="Mais Zoom" />
+        <String Key="ru" Value="Увеличить" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>Oem_Plus</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57764" Title="Zoom Out" Left="1" Top="4">
+      <Strings>
+        <String Key="en" Value="Zoom Out" />
+        <String Key="zh" Value="缩小" />
+        <String Key="ar" Value="تصغير" />
+        <String Key="de" Value="Rauszoomen" />
+        <String Key="es" Value="Disminuir el zoom" />
+        <String Key="fr" Value="Dézoomer" />
+        <String Key="it" Value="Rimpicciolisci" />
+        <String Key="ja" Value="ズームアウトする" />
+        <String Key="ko" Value="축소" />
+        <String Key="nl" Value="Uitzoomen" />
+        <String Key="pt" Value="Reduzir o zoom" />
+        <String Key="ru" Value="Уменьшить" />
+      </Strings>
+      <Keys>
+        <Key>Control</Key>
+        <Key>Oem_Minus</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57815" Title="HIde Panel" Left="2" Top="4">
+      <Strings>
+        <String Key="en" Value="Hide Panel" />
+        <String Key="zh" Value="隐藏面板" />
+        <String Key="ar" Value="إخفاء لوحة" />
+        <String Key="de" Value="Bedienfeld ausblenden" />
+        <String Key="es" Value="Ocultar panel" />
+        <String Key="fr" Value="Masquer le panneau" />
+        <String Key="it" Value="Nascondi Panel" />
+        <String Key="ja" Value="パネルを非表示します" />
+        <String Key="ko" Value="패널 숨기기" />
+        <String Key="nl" Value="Verbergen Panel" />
+        <String Key="pt" Value="Ocultar Painel" />
+        <String Key="ru" Value="Скрыть панель" />
+      </Strings>
+      <Keys>
+        <Key>Tab</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57673" Title="Rotate Left" Left="0" Top="5">
+      <Strings>
+        <String Key="en" Value="Rotate left" />
+        <String Key="zh" Value="左旋转" />
+        <String Key="ar" Value="استدر يسارا" />
+        <String Key="de" Value="Nach links drehen" />
+        <String Key="es" Value="Girar a la izquierda" />
+        <String Key="fr" Value="Tourne à gauche" />
+        <String Key="it" Value="Gira a sinistra" />
+        <String Key="ja" Value="左に回転" />
+        <String Key="ko" Value="왼쪽으로 회전" />
+        <String Key="nl" Value="Draai naar links" />
+        <String Key="pt" Value="Vire à esquerda" />
+        <String Key="ru" Value="Повернуть налево" />
+      </Strings>
+      <Keys>
+        <Key>Shift</Key>
+        <Key>Prior</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57674" Title="Rotate Right" Left="1" Top="5">
+      <Strings>
+        <String Key="en" Value="Rotate right" />
+        <String Key="zh" Value="右旋转" />
+        <String Key="ar" Value="استدارة لليمين" />
+        <String Key="de" Value="Drehe nach rechts" />
+        <String Key="es" Value="Gira a la derecha" />
+        <String Key="fr" Value="Tourner à droite" />
+        <String Key="it" Value="Ruota a destra" />
+        <String Key="ja" Value="右に回る" />
+        <String Key="ko" Value="오른쪽으로 회전" />
+        <String Key="nl" Value="Draai naar rechts" />
+        <String Key="pt" Value="Vire à direita" />
+        <String Key="ru" Value="Повернуть вправо" />
+      </Strings>
+      <Keys>
+        <Key>Shift</Key>
+        <Key>Next</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57817" Title="Full screen" Left="2" Top="5">
+      <Strings>
+        <String Key="en" Value="Full screen" />
+        <String Key="zh" Value="全屏" />
+        <String Key="ar" Value="تكبير الشاشة" />
+        <String Key="de" Value="Vollbild" />
+        <String Key="es" Value="Pantalla completa" />
+        <String Key="fr" Value="Plein écran" />
+        <String Key="it" Value="A schermo intero" />
+        <String Key="ja" Value="全画面表示" />
+        <String Key="ko" Value="전체 화면" />
+        <String Key="nl" Value="Volledig scherm" />
+        <String Key="pt" Value="Tela cheia" />
+        <String Key="ru" Value="Полноэкранный" />
+      </Strings>
+      <Keys>
+        <Key>F11</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57616" Title="" Left="1" Top="6">
+      <Keys>
+        <Key>Down</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57618" Title="" Left="0" Top="7">
+      <Keys>
+        <Key>Right</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57853" Title="" Left="1" Top="7">
+      <Keys>
+        <Key>Up</Key>
+      </Keys>
+    </Item>
+    <Item Icon="57617" Title="" Left="2" Top="7">
+      <Keys>
+        <Key>Left</Key>
+      </Keys>
+    </Item>
+  </Items>
+</Root>

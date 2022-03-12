@@ -157,5 +157,11 @@
   <ItemGroup>
     <Resource Include="icon.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="XMLs\Solution Affinity Photo.xml" />
+    <Resource Include="XMLs\Solution Krita.xml" />
+    <Resource Include="XMLs\Solution SAI Paint.xml" />
+    <Resource Include="XMLs\Solution.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
