@@ -5,7 +5,30 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"       
+    Height="60"        
+    Width="60"
+    ResizeMode="NoResize"       
+    Topmost="True"
+    WindowStyle="None"
+    BorderThickness="2"
+    BorderBrush="White"
+    Background="Black"
     >
 
+    <Window.Title>
+        Paint Keyboard
+    </Window.Title>
+
+    <Thumb x:Name="Thumb" Background="Transparent">
+        <Thumb.Template>
+            <ControlTemplate>
+                <Border Background="Transparent">
+                    <TextBlock IsHitTestVisible="False" Foreground="White" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        鱼
+                    </TextBlock>
+                </Border>
+            </ControlTemplate>
+        </Thumb.Template>
+    </Thumb>
 
 </Window>
