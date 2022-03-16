@@ -4,10 +4,12 @@
 ![](ScreenShot/screenshot.jpg)
 
  
- Github Releases 地址: 
-[下载 绘键 - Github Releases](https://github.com/ysdy44/Paint-Keyboard-WPF/releases/download/v1.0.0/Paint.Keyboard.exe)   
- 码云 发行版 地址: 
-[下载 绘键 - 码云 发行版](https://gitee.com/ysdy44/paint-keyboard-wpf/attach_files/993929/download/Paint%20Keyboard.exe)   
+Github Releases 地址: <br/>
+[下载 绘键 (x64) - Github Releases](https://github.com/ysdy44/Paint-Keyboard-WPF/releases/download/v1.0.1/Paint.Keyboard.x64.exe)   
+[下载 绘键 (x86) - Github Releases](https://github.com/ysdy44/Paint-Keyboard-WPF/releases/download/v1.0.1/Paint.Keyboard.x86.exe)   
+ 码云 发行版 地址:  <br/>
+[下载 绘键 (x64) - 码云 发行版](https://gitee.com/ysdy44/paint-keyboard-wpf/attach_files/998390/download/Paint%20Keyboard%20(x64).exe)   
+[下载 绘键 (x86) - 码云 发行版](https://gitee.com/ysdy44/paint-keyboard-wpf/attach_files/998391/download/Paint%20Keyboard%20(x86).exe)   
 
 
 <br/>
